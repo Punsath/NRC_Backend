@@ -6,7 +6,7 @@ import { EmployeeRouter } from "./Routes/EmployeeRoute.js";
 const app = express();
 // CORS options
 const corsOptions = {
-  origin: ["http://localhost:3001"], // Replace with specific origin(s) you allow
+  origin: ["http://localhost:3000"], // Replace with specific origin(s) you allow
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   allowedHeaders: ["Content-Type", "Authorization"], // Add required headers
   credentials: true, // If credentials (cookies/auth) are needed
